@@ -1,11 +1,14 @@
 import { defineThemes } from './theme.models';
+import { terminalPalette } from '@/terminal-palette';
+
+const { dark, light } = terminalPalette;
 
 export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
   light: {
-    background: '#ffffff',
+    background: light.surface,
     text: {
-      baseColor: '#333639',
-      mutedColor: '#767c82',
+      baseColor: light.text,
+      mutedColor: light.textMuted,
     },
     default: {
       color: 'rgba(46, 51, 56, 0.05)',
@@ -13,10 +16,10 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorPressed: 'rgba(46, 51, 56, 0.22)',
     },
     primary: {
-      color: '#18a058',
-      colorHover: '#1ea54c',
-      colorPressed: '#0C7A43',
-      colorFaded: '#18a0582f',
+      color: light.primary,
+      colorHover: light.primaryHover,
+      colorPressed: light.primaryPressed,
+      colorFaded: light.primaryFaded,
     },
     warning: {
       color: '#f59e0b',
@@ -36,13 +39,13 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorPressed: '#ab1f3f',
       colorFaded: '#d030502a',
     },
-    loading_background: '#f1f5f9',
+    loading_background: light.background,
   },
   dark: {
-    background: '#1e1e1e',
+    background: dark.surface,
     text: {
-      baseColor: '#ffffffd1',
-      mutedColor: '#ffffff80',
+      baseColor: dark.text,
+      mutedColor: dark.textMuted,
     },
     default: {
       color: 'rgba(255, 255, 255, 0.08)',
@@ -50,10 +53,10 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorPressed: 'rgba(255, 255, 255, 0.24)',
     },
     primary: {
-      color: '#1ea54c',
-      colorHover: '#36AD6A',
-      colorPressed: '#0C7A43',
-      colorFaded: '#18a0582f',
+      color: dark.primary,
+      colorHover: dark.primaryHover,
+      colorPressed: dark.primaryPressed,
+      colorFaded: dark.primaryFaded,
     },
     warning: {
       color: '#f59e0b',
@@ -73,6 +76,6 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorPressed: '#e57272',
       colorFaded: '#e8808029',
     },
-    loading_background: '#1c1c1c',
+    loading_background: dark.background,
   },
 });

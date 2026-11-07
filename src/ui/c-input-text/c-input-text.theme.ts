@@ -1,17 +1,18 @@
 import { defineThemes } from '../theme/theme.models';
+import { terminalPalette } from '@/terminal-palette';
 
 export const { useTheme } = defineThemes({
   dark: {
-    backgroundColor: '#333333',
-    borderColor: '#333333',
+    backgroundColor: terminalPalette.dark.input,
+    borderColor: terminalPalette.dark.border,
 
     focus: {
-      backgroundColor: '#1ea54c1a',
+      backgroundColor: `${terminalPalette.dark.primary}1a`,
     },
   },
   light: {
-    backgroundColor: '#ffffff',
-    borderColor: '#e0e0e69e',
+    backgroundColor: terminalPalette.light.input,
+    borderColor: terminalPalette.light.border,
 
     focus: {
       backgroundColor: '#ffffff',

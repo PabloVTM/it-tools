@@ -1,5 +1,6 @@
 import { defineThemes } from '../theme/theme.models';
 import { appThemes } from '../theme/themes';
+import { terminalPalette } from '@/terminal-palette';
 
 const sizes = {
   small: {
@@ -20,13 +21,13 @@ export const { useTheme } = defineThemes({
   dark: {
     sizes,
 
-    backgroundColor: '#333333',
-    borderColor: '#333333',
+    backgroundColor: terminalPalette.dark.input,
+    borderColor: terminalPalette.dark.border,
     dropdownShadow: 'rgba(0, 0, 0, 0.2) 0px 8px 24px',
 
     option: {
       hover: {
-        backgroundColor: '#444444',
+        backgroundColor: terminalPalette.dark.hover,
       },
       active: {
         textColor: appThemes.dark.primary.color,
@@ -34,19 +35,19 @@ export const { useTheme } = defineThemes({
     },
 
     focus: {
-      backgroundColor: '#1ea54c1a',
+      backgroundColor: `${terminalPalette.dark.primary}1a`,
     },
   },
   light: {
     sizes,
 
-    backgroundColor: '#ffffff',
-    borderColor: '#e0e0e69e',
+    backgroundColor: terminalPalette.light.input,
+    borderColor: terminalPalette.light.border,
     dropdownShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px',
 
     option: {
       hover: {
-        backgroundColor: '#eee',
+        backgroundColor: terminalPalette.light.hover,
       },
       active: {
         textColor: appThemes.light.primary.color,

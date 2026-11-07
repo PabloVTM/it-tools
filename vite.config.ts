@@ -179,14 +179,14 @@ export default defineConfig({
       // from the app root -- so the manifest, like the rest of the build, does not need to
       // know where that root is.
       manifest: {
-        name: 'IT Tools',
+        name: 'IT Tools by PabloVTM',
         description: 'Aggregated set of useful tools for developers.',
         display: 'standalone',
         start_url: './?utm_source=pwa&utm_medium=pwa',
         scope: './',
         orientation: 'any',
-        theme_color: '#18a058',
-        background_color: '#f1f5f9',
+        theme_color: '#0d1117',
+        background_color: '#0d1117',
         icons: [
           {
             src: './favicon-16x16.png',

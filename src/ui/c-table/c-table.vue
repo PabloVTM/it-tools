@@ -49,8 +49,8 @@ const headers = computed(() => {
     >
       <thead
         v-if="!hideHeaders"
-        class="bg-#ffffff uppercase text-gray-700 dark:bg-#333333 dark:text-gray-400"
-        border-b="1px solid dark:transparent #efeff5"
+        class="bg-#f6f8fa uppercase text-gray-700 dark:bg-#21262d dark:text-gray-400"
+        border-b="1px solid dark:transparent #d0d7de"
       >
         <tr>
           <th v-for="header in headers" :key="header.key" scope="col" class="px-6 py-3 text-xs">
@@ -62,8 +62,8 @@ const headers = computed(() => {
         <tr
           v-for="(row, i) in data"
           :key="i"
-          border-b="1px solid dark:#282828 #efeff5"
-          class="bg-white dark:bg-#232323"
+          border-b="1px solid dark:#30363d #d0d7de"
+          class="bg-white dark:bg-#161b22"
           :class="{
             'important:border-b-none': i === data.length - 1,
           }"

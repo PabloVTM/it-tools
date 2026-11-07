@@ -23,6 +23,7 @@ const colorPalette = useAppTheme();
 // Create CSS custom properties for the color palette
 const cssVars = computed(() => ({
   '--loading-background-color': colorPalette.value.loading_background,
+  '--it-primary': colorPalette.value.primary.color,
 }));
 
 // Apply CSS variables to the document root - batch updates to avoid thrashing
