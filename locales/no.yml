@@ -47,7 +47,7 @@ home:
         Samling av nyttige nettverktøy for utviklere, med flott
         brukeropplevelse. IT Tools er en gratis og åpen kildekode-samling av
         nyttige nettverktøy for utviklere og folk som jobber innen IT.
-      it-tools-handy-online-tools-for-developers: IT-verktøy – nyttige nettverktøy for utviklere
+      it-tools-handy-online-tools-for-developers: "IT Tools av PabloVTM - Nyttige nettverktøy for utviklere"
 about:
   alltools-title: Alle {toolsCount} verktøy
   tools:
@@ -60,41 +60,20 @@ about:
   import-button: Import
   favorites-imported-successfully: Favorittene er importert!
   error-importing-favorites-e: "Feil ved import av favoritter: {0}"
-  content-fork: >+
-    # Om IT-verktøy
+  content-fork: |
+    # Om IT-Tools
 
-    Denne fantastiske nettsiden, laget med ❤, opprinnelig av [Corentin
-    Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) og
-    utvidet av ShareVB, samler nyttige verktøy for utviklere og folk som jobber
-    innen IT. Hvis du synes den er nyttig, kan du gjerne dele den med folk du
-    tror kan synes den er nyttig også, og ikke glem å bokmerke den i
-    snarveilinjen din!
+    Dette nettstedet, opprinnelig laget med ❤ av [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) og utvidet av [ShareVB](https://github.com/sharevb/it-tools), samler nyttige verktøy for utviklere og IT-folk. Denne utgaven vedlikeholdes av [PabloVTM](https://github.com/PabloVTM/it-tools) og fokuserer på IT-verktøykassen. Hvis du synes den er nyttig, del den gjerne og legg den til i bokmerkene!
 
-    IT Tools er åpen kildekode (under GPL-3.0-lisensen) og gratis, og vil alltid
-    være det. Hvis du vil støtte arbeidet mitt på denne fork, og oppmuntre meg
-    til å legge til flere verktøy eller funksjoner, kan du vurdere å støtte ved
-    å [sponse meg](https://www.buymeacoffee.com/sharevb).
+    IT Tools er åpen kildekode (under GPL-3.0-lisensen) og gratis, og vil alltid være det. Vil du støtte ShareVBs arbeid med forken denne utgaven bygger på, kan du [sponse ShareVB](https://www.buymeacoffee.com/sharevb).
 
     ## Teknologier
 
-    IT Tools er laget i Vue.js (Vue 3) med Naive UI-komponentbiblioteket og
-    driftes og distribueres kontinuerlig av Vercel. Tredjepartsbiblioteker med
-    åpen kildekode brukes i noen verktøy. Du finner den komplette listen i filen
-    [package.json](https://github.com/sharevb/it-tools/blob/main/package.json) i
-    depotet.
+    IT Tools er laget i Vue.js (Vue 3) med komponentbiblioteket Naive UI. Denne utgaven distribueres som et Docker-image (`ghcr.io/pablovtm/it-tools`). Noen verktøy bruker tredjeparts åpen kildekode-biblioteker; hele listen finnes i filen [package.json](https://github.com/PabloVTM/it-tools/blob/master/package.json) i repositoriet.
 
+    ## Funnet en feil? Mangler et verktøy?
 
-    ## Fant du en feil? Mangler et verktøy?
-
-    Hvis du trenger et verktøy som ikke finnes her, og du tror kan være nyttig,
-    kan du sende inn en funksjonsforespørsel i
-    [problemseksjonen](https://github.com/sharevb/it-tools/issues/new/choose) i
-    GitHub-depotet.
-
-    Og hvis du fant en feil, eller noe ikke fungerer som forventet, kan du sende
-    inn en feilrapport i
-    [problemseksjonen](https://github.com/sharevb/it-tools/issues/new/choose) i
-    GitHub-depotet.
+    Forslag og feilrapporter er velkomne i [GitHub-repositoriet](https://github.com/PabloVTM/it-tools).
 
   text:
     collection-of-handy-online-tools-for-developers-with-great-ux-it-tools-is-a-free-and-open-source-collection-of-handy-online-tools-for-developers-and-people-working-in-it:

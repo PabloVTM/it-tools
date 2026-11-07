@@ -46,7 +46,7 @@ home:
         Een verzameling handige online tools voor ontwikkelaars, met een
         geweldige gebruikerservaring. IT Tools is een gratis en open-source
         verzameling handige online tools voor ontwikkelaars en IT-professionals.
-      it-tools-handy-online-tools-for-developers: IT-tools - Handige online tools voor ontwikkelaars
+      it-tools-handy-online-tools-for-developers: "IT Tools door PabloVTM - Handige online tools voor ontwikkelaars"
 favoriteButton:
   remove: Verwijder uit favorieten
   add: Voeg toe aan favorieten
@@ -10204,42 +10204,20 @@ about:
     name: Naam
     desc: Beschrijving
     category: Categorie
-  content-fork: >-
+  content-fork: |
     # Over IT-Tools
 
-    Deze prachtige website, oorspronkelijk met ❤ gemaakt door [Corentin
-    Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) en
-    uitgebreid met ShareVB, verzamelt handige tools voor ontwikkelaars en mensen
-    die in de IT werken. Als je het nuttig vindt, deel het dan gerust met mensen
-    waarvan je denkt dat ze het ook nuttig zullen vinden en vergeet niet om het
-    te bookmarken in je snelkoppelingenbalk!
+    Deze website, oorspronkelijk met ❤ gemaakt door [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) en uitgebreid door [ShareVB](https://github.com/sharevb/it-tools), bundelt handige tools voor ontwikkelaars en IT-professionals. Deze editie wordt onderhouden door [PabloVTM](https://github.com/PabloVTM/it-tools) en richt zich op de gereedschapskist van de IT'er. Vind je hem nuttig, deel hem dan en voeg hem toe aan je bladwijzers!
 
-    IT Tools is open-source (onder de GPL-3.0-licentie) en gratis, en dat zal
-    altijd zo blijven. Als je mijn werk aan deze fork wilt ondersteunen en me
-    wilt aanmoedigen om meer tools of functionaliteiten toe te voegen, overweeg
-    dan om me te steunen door [mij te
-    sponsoren](https://www.buymeacoffee.com/sharevb).
+    IT Tools is open source (onder de GPL-3.0-licentie) en gratis, en dat blijft zo. Wil je het werk van ShareVB steunen aan de fork waarop deze editie is gebaseerd, overweeg dan [ShareVB te sponsoren](https://www.buymeacoffee.com/sharevb).
 
     ## Technologieën
 
-    IT Tools is gemaakt in Vue.js (Vue 3) met de Naive UI-componentbibliotheek
-    en wordt gehost en continu geïmplementeerd door Vercel. In sommige tools
-    worden open-sourcebibliotheken van derden gebruikt. De volledige lijst vindt
-    u in het bestand
-    [package.json](https://github.com/sharevb/it-tools/blob/main/package.json)
-    van de repository.
+    IT Tools is gemaakt met Vue.js (Vue 3) en de componentenbibliotheek Naive UI. Deze editie wordt verspreid als Docker-image (`ghcr.io/pablovtm/it-tools`). Sommige tools gebruiken opensourcebibliotheken van derden; de volledige lijst staat in het bestand [package.json](https://github.com/PabloVTM/it-tools/blob/master/package.json) van de repository.
 
-    ## Bug gevonden? Ontbreekt er een tool?
+    ## Een bug gevonden? Mis je een tool?
 
-    Als u een tool nodig heeft die momenteel niet hier aanwezig is en waarvan u
-    denkt dat deze nuttig kan zijn, kunt u een feature request indienen in de
-    [issues section](https://github.com/sharevb/it-tools/issues/new/choose) in
-    de GitHub-repository.
-
-    En als u een bug hebt gevonden of iets niet werkt zoals verwacht, kunt u een
-    bugrapport indienen in de [issues
-    section](https://github.com/sharevb/it-tools/issues/new/choose) in de
-    GitHub-repository.
+    Suggesties en bugmeldingen zijn welkom in de [GitHub-repository](https://github.com/PabloVTM/it-tools).
   import-favorites: Favorieten importeren
   export-favorites: Favorieten exporteren
   put-your-favorites-json-array-here: Plaats hier uw favoriete JSON-array...

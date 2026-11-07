@@ -48,7 +48,7 @@ home:
         çevrimiçi araçlar koleksiyonu. BT Araçları, geliştiriciler ve BT
         alanında çalışanlar için kullanışlı çevrimiçi araçlardan oluşan ücretsiz
         ve açık kaynaklı bir koleksiyondur.
-      it-tools-handy-online-tools-for-developers: BT Araçları - Geliştiriciler için kullanışlı çevrimiçi araçlar
+      it-tools-handy-online-tools-for-developers: "PabloVTM'den IT Tools - Geliştiriciler için kullanışlı çevrimiçi araçlar"
 favoriteButton:
   remove: Favorilerden kaldır
   add: Favorilere ekle
@@ -10200,42 +10200,20 @@ about:
     name: İsim
     desc: Tanım
     category: Kategori
-  content-fork: >
-    # IT-Tools Hakkında
+  content-fork: |
+    # IT-Tools hakkında
 
-    Başlangıçta [Corentin
-    Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about)
-    tarafından ❤ ile hazırlanan ve ShareVB tarafından genişletilen bu harika web
-    sitesi, geliştiriciler ve BT çalışanları için faydalı araçları bir araya
-    getiriyor. Faydalı bulursanız, lütfen faydalı olabileceğini düşündüğünüz
-    kişilerle paylaşmaktan çekinmeyin ve kısayol çubuğunuza eklemeyi unutmayın!
+    İlk olarak [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) tarafından ❤ ile oluşturulan ve [ShareVB](https://github.com/sharevb/it-tools) tarafından genişletilen bu site, geliştiriciler ve BT çalışanları için faydalı araçları bir araya getirir. Bu sürüm [PabloVTM](https://github.com/PabloVTM/it-tools) tarafından sürdürülür ve BT uzmanının araç kutusuna odaklanır. Faydalı bulursanız paylaşın ve yer imlerinize ekleyin!
 
-    IT Tools açık kaynaklıdır (GPL-3.0 lisansı altında) ve ücretsizdir ve her
-    zaman öyle kalacaktır. Bu çataldaki çalışmalarımı desteklemek ve daha fazla
-    araç veya işlev eklemem için beni teşvik etmek isterseniz, lütfen [bana
-    sponsor olarak](https://www.buymeacoffee.com/sharevb) destek olmayı düşünün.
+    IT Tools açık kaynaklıdır (GPL-3.0 lisansı altında) ve ücretsizdir, her zaman da öyle kalacaktır. Bu sürümün dayandığı fork üzerindeki ShareVB çalışmalarını desteklemek için [ShareVB'ye sponsor olabilirsiniz](https://www.buymeacoffee.com/sharevb).
 
     ## Teknolojiler
 
-    IT Tools, Naive UI bileşen kütüphanesi ile Vue.js (Vue 3) ile hazırlanmıştır
-    ve Vercel tarafından barındırılmakta ve sürekli olarak dağıtılmaktadır. Bazı
-    araçlarda üçüncü taraf açık kaynaklı kütüphaneler kullanılmaktadır; eksiksiz
-    listeyi deponun
-    [package.json](https://github.com/sharevb/it-tools/blob/main/package.json)
-    dosyasında bulabilirsiniz.
+    IT Tools, Vue.js (Vue 3) ve Naive UI bileşen kütüphanesi ile geliştirilmiştir. Bu sürüm bir Docker imajı (`ghcr.io/pablovtm/it-tools`) olarak dağıtılır. Bazı araçlar üçüncü taraf açık kaynak kütüphaneler kullanır; tam liste deponun [package.json](https://github.com/PabloVTM/it-tools/blob/master/package.json) dosyasındadır.
 
-    ## Bir hata mı buldunuz? Bir araç mı eksik?
+    ## Bir hata mı buldunuz? Eksik bir araç mı var?
 
-    Şu anda burada bulunmayan ve faydalı olabileceğini düşündüğünüz bir araca
-    ihtiyacınız varsa, GitHub deposundaki
-    [sorunlar](https://github.com/sharevb/it-tools/issues/new/choose) bölümünden
-    bir özellik isteği gönderebilirsiniz.
-
-
-    Bir hata bulursanız veya bir şey beklendiği gibi çalışmıyorsa, lütfen GitHub
-    deposundaki
-    [sorunlar](https://github.com/sharevb/it-tools/issues/new/choose) bölümüne
-    bir hata raporu gönderin.
+    Öneriler ve hata bildirimleri [GitHub deposunda](https://github.com/PabloVTM/it-tools) memnuniyetle karşılanır.
   import-favorites: Favorileri İçe Aktar
   export-favorites: Favorileri Dışa Aktar
   put-your-favorites-json-array-here: Favori JSON dizinizi buraya koyun...

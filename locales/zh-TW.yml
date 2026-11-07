@@ -18,31 +18,20 @@ about:
   import-button: 匯入
   favorites-imported-successfully: 收藏夾匯入成功！
   error-importing-favorites-e: 匯入收藏夾時出錯：{0}
-  content-fork: >
+  content-fork: |
     # 關於 IT-Tools
 
-    這個精彩的網站最初由 [Corentin
-    Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about)
-    傾情打造，並由 ShareVB 進行擴充套件，彙集了開發者和 IT
-    工作者所需的實用工具。如果您覺得它有用，請分享給您認為可能也會有用的人，別忘了將其新增到您的快捷方式欄中！
+    本網站最初由 [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) 用 ❤ 打造，後由 [ShareVB](https://github.com/sharevb/it-tools) 擴充，彙集了開發者與 IT 從業人員的實用工具。本版本由 [PabloVTM](https://github.com/PabloVTM/it-tools) 維護，專注於 IT 人員的工具箱。如果你覺得有用，歡迎分享並加入書籤！
 
-    IT Tools 是開源的（遵循 GPL-3.0 許可證），並且永遠免費。如果您想支援我在此分支上的工作，並鼓勵我新增更多工具或功能，請考慮透過
-    [贊助我](https://www.buymeacoffee.com/sharevb) 來支援。
+    IT Tools 是開源的（採用 GPL-3.0 授權）且免費，並將永遠如此。如果想支持 ShareVB 在本版本所依據的分支上的工作，可以考慮[贊助 ShareVB](https://www.buymeacoffee.com/sharevb)。
 
     ## 技術
 
-    IT Tools 使用 Vue.js (Vue 3) 和 Naive UI 元件庫開發，並由 Vercel
-    託管和持續部署。部分工具使用了第三方開源庫，您可以在程式碼庫的
-    [package.json](https://github.com/sharevb/it-tools/blob/main/package.json)
-    檔案中找到完整列表。
+    IT Tools 使用 Vue.js（Vue 3）與 Naive UI 元件庫開發。本版本以 Docker 映像檔（`ghcr.io/pablovtm/it-tools`）的形式發佈。部分工具使用第三方開源函式庫，完整清單請見儲存庫中的 [package.json](https://github.com/PabloVTM/it-tools/blob/master/package.json) 檔案。
 
-    ## 發現錯誤？缺少工具？
+    ## 發現了錯誤？缺少某個工具？
 
-    如果您需要某個工具，而該工具目前尚未提供，並且您認為它很有用，歡迎在 GitHub 程式碼庫的
-    [issues](https://github.com/sharevb/it-tools/issues/new/choose) 部分提交功能請求。
-
-    如果您發現錯誤，或者某些功能無法按預期執行，請在 GitHub 程式碼庫的
-    [issues](https://github.com/sharevb/it-tools/issues/new/choose) 部分提交錯誤報告。
+    歡迎在 [GitHub 儲存庫](https://github.com/PabloVTM/it-tools) 提出建議與回報問題。
   text:
     collection-of-handy-online-tools-for-developers-with-great-ux-it-tools-is-a-free-and-open-source-collection-of-handy-online-tools-for-developers-and-people-working-in-it: IT Tools 是一款免費開源的線上工具合集，為開發人員和 IT 從業人員提供便捷的線上工具，擁有出色的使用者體驗。
     about-it-tools: 關於 - IT-Tools
@@ -109,7 +98,7 @@ home:
   page:
     text:
       collection-of-handy-online-tools-for-developers-with-great-ux-it-tools-is-a-free-and-open-source-collection-of-handy-online-tools-for-developers-and-people-working-in-it: IT Tools 是一款免費開源的線上工具合集，為開發人員和 IT 從業人員提供便捷的線上工具，擁有出色的使用者體驗。
-      it-tools-handy-online-tools-for-developers: IT-Tools - 實用的開發者線上工具
+      it-tools-handy-online-tools-for-developers: "PabloVTM 的 IT Tools - 實用的開發者線上工具"
 tools:
   crop-image:
     title: 裁剪圖片

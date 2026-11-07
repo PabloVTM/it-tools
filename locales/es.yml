@@ -48,8 +48,7 @@ home:
         excelente experiencia de usuario. IT Tools es una colección gratuita y
         de código abierto de útiles herramientas online para desarrolladores y
         profesionales de TI.
-      it-tools-handy-online-tools-for-developers: "Herramientas informáticas:
-        prácticas herramientas en línea para desarrolladores"
+      it-tools-handy-online-tools-for-developers: "IT Tools por PabloVTM - Herramientas en línea útiles para desarrolladores"
 about:
   alltools-title: Todas las {toolsCount} herramientas
   tools:
@@ -62,40 +61,20 @@ about:
   import-button: Importar
   favorites-imported-successfully: ¡Favoritos importados exitosamente!
   error-importing-favorites-e: "Error al importar favoritos: {0}"
-  content-fork: >-
+  content-fork: |
     # Acerca de IT-Tools
 
-    Este maravilloso sitio web, creado con ❤ inicialmente por [Corentin
-    Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) y
-    ampliado por ShareVB, reúne herramientas útiles para desarrolladores y
-    profesionales de TI. Si te resulta útil, compártelo con quienes creas que
-    también lo puedan encontrar y no olvides guardarlo en tus favoritos.
+    Este sitio, creado inicialmente con ❤ por [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) y ampliado por [ShareVB](https://github.com/sharevb/it-tools), reúne herramientas útiles para desarrolladores y profesionales de TI. Esta edición la mantiene [PabloVTM](https://github.com/PabloVTM/it-tools) y se centra en la caja de herramientas del informático. Si te resulta útil, ¡compártela y guárdala en tus marcadores!
 
-    IT Tools es de código abierto (bajo la licencia GPL-3.0) y gratuito, y
-    siempre lo será. Si quieres apoyar mi trabajo en esta bifurcación y animarme
-    a añadir más herramientas o funcionalidades, considera
-    [patrocinarme](https://www.buymeacoffee.com/sharevb).
+    IT Tools es de código abierto (bajo licencia GPL-3.0) y gratuito, y siempre lo será. Para apoyar el trabajo de ShareVB en el fork en el que se basa esta edición, puedes [patrocinar a ShareVB](https://www.buymeacoffee.com/sharevb).
 
     ## Tecnologías
 
-    IT Tools está desarrollado en Vue.js (Vue 3) con la biblioteca de
-    componentes Naive UI y está alojado e implementado continuamente por Vercel.
-    Algunas herramientas utilizan bibliotecas de código abierto de terceros.
-    Puede encontrar la lista completa en el archivo
-    [package.json](https://github.com/sharevb/it-tools/blob/main/package.json)
-    del repositorio.
+    IT Tools está hecho con Vue.js (Vue 3) y la biblioteca de componentes Naive UI. Esta edición se distribuye como imagen Docker (`ghcr.io/pablovtm/it-tools`). Algunas herramientas usan bibliotecas de código abierto de terceros; la lista completa está en el archivo [package.json](https://github.com/PabloVTM/it-tools/blob/master/package.json) del repositorio.
 
-    ## ¿Encontró un error? ¿Falta alguna herramienta?
+    ## ¿Encontraste un error? ¿Falta alguna herramienta?
 
-    Si necesita una herramienta que actualmente no está disponible aquí y cree
-    que puede ser útil, puede enviar una solicitud de funcionalidad en la
-    sección [issues](https://github.com/sharevb/it-tools/issues/new/choose) del
-    repositorio de GitHub.
-
-    Y si encuentra un error o algo no funciona como se esperaba, envíe un
-    informe de error en la sección
-    [issues](https://github.com/sharevb/it-tools/issues/new/choose) del
-    repositorio de GitHub.
+    Las sugerencias y los informes de errores son bienvenidos en el [repositorio de GitHub](https://github.com/PabloVTM/it-tools).
   text:
     collection-of-handy-online-tools-for-developers-with-great-ux-it-tools-is-a-free-and-open-source-collection-of-handy-online-tools-for-developers-and-people-working-in-it:
       Colección de prácticas herramientas online para desarrolladores, con una

@@ -46,7 +46,7 @@ home:
         مجموعة من الأدوات الإلكترونية المفيدة للمطورين، مع تجربة مستخدم رائعة.
         أدوات تكنولوجيا المعلومات هي مجموعة مجانية ومفتوحة المصدر من الأدوات
         الإلكترونية المفيدة للمطورين والعاملين في مجال تكنولوجيا المعلومات.
-      it-tools-handy-online-tools-for-developers: أدوات تكنولوجيا المعلومات - أدوات مفيدة عبر الإنترنت للمطورين
+      it-tools-handy-online-tools-for-developers: "IT Tools من PabloVTM - أدوات مفيدة عبر الإنترنت للمطورين"
 about:
   alltools-title: جميع الأدوات {toolsCount}
   tools:
@@ -59,40 +59,20 @@ about:
   import-button: يستورد
   favorites-imported-successfully: تم استيراد المفضلة بنجاح!
   error-importing-favorites-e: "خطأ في استيراد المفضلة: {0}"
-  content-fork: >
-    # حول أدوات تكنولوجيا المعلومات
+  content-fork: |
+    # حول IT-Tools
 
-    هذا الموقع الرائع، الذي أنشأه بكل حب [كورنتين
-    توماسيت](https://corentin.tech?utm_source=it-tools&utm_medium=about) ووسّعه
-    ShareVB، يجمع أدوات مفيدة للمطورين والعاملين في مجال تكنولوجيا المعلومات.
-    إذا وجدته مفيدًا، فلا تتردد في مشاركته مع من تعتقد أنه قد يفيدك أيضًا، ولا
-    تنسَ حفظه في شريط الاختصارات!
+    هذا الموقع، الذي أنشأه في البداية [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) بكل ❤ ووسّعه [ShareVB](https://github.com/sharevb/it-tools)، يجمع أدوات مفيدة للمطورين والعاملين في تقنية المعلومات. يتولى [PabloVTM](https://github.com/PabloVTM/it-tools) صيانة هذا الإصدار الذي يركّز على صندوق أدوات مختص تقنية المعلومات. إن وجدته مفيدًا، فشاركه وأضفه إلى إشاراتك المرجعية!
 
-    أدوات تكنولوجيا المعلومات مفتوحة المصدر (تحت رخصة GPL-3.0) ومجانية، وستظل
-    كذلك دائمًا. إذا كنت ترغب في دعم عملي على هذه النسخة، وتشجيعي على إضافة
-    المزيد من الأدوات أو الوظائف، ففكر في دعمي من خلال
-    [رعايتي](https://www.buymeacoffee.com/sharevb).
+    IT Tools مفتوح المصدر (بموجب ترخيص GPL-3.0) ومجاني، وسيبقى كذلك دائمًا. لدعم عمل ShareVB على النسخة المتفرعة التي يستند إليها هذا الإصدار، يمكنك [رعاية ShareVB](https://www.buymeacoffee.com/sharevb).
 
     ## التقنيات
 
-    أدوات تكنولوجيا المعلومات مصممة باستخدام Vue.js (Vue 3) مع مكتبة مكونات
-    واجهة المستخدم Naive، وتستضيفها Vercel وتُنشرها باستمرار. تُستخدم مكتبات
-    مفتوحة المصدر من جهات خارجية في بعض الأدوات، ويمكنك الاطلاع على القائمة
-    الكاملة في ملف
-    [package.json](https://github.com/sharevb/it-tools/blob/main/package.json)
-    في المستودع.
+    تم تطوير IT Tools باستخدام Vue.js (Vue 3) ومكتبة المكونات Naive UI. يُوزَّع هذا الإصدار كصورة Docker (`ghcr.io/pablovtm/it-tools`). تستخدم بعض الأدوات مكتبات مفتوحة المصدر من جهات خارجية؛ والقائمة الكاملة موجودة في ملف [package.json](https://github.com/PabloVTM/it-tools/blob/master/package.json) في المستودع.
 
-    ## هل وجدتَ خطأً برمجيًا؟ هل هناك أداة مفقودة؟
+    ## هل وجدت خطأً؟ هل هناك أداة ناقصة؟
 
-    إذا كنتَ بحاجة إلى أداة غير موجودة حاليًا هنا، وتعتقد أنها قد تكون مفيدة،
-    فيُرجى تقديم طلب ميزة في [قسم
-    المشكلات](https://github.com/sharevb/it-tools/issues/new/choose) في مستودع
-    GitHub.
-
-    وإذا وجدتَ خطأً برمجيًا، أو لم يعمل شيء كما هو متوقع، فيُرجى تقديم تقرير عن
-    الخطأ في [قسم
-    المشكلات](https://github.com/sharevb/it-tools/issues/new/choose) في مستودع
-    GitHub.
+    نرحّب بالاقتراحات وتقارير الأخطاء في [مستودع GitHub](https://github.com/PabloVTM/it-tools).
   text:
     collection-of-handy-online-tools-for-developers-with-great-ux-it-tools-is-a-free-and-open-source-collection-of-handy-online-tools-for-developers-and-people-working-in-it:
       مجموعة من الأدوات الإلكترونية المفيدة للمطورين، مع تجربة مستخدم رائعة.

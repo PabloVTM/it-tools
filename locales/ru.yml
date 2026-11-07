@@ -47,7 +47,7 @@ home:
         пользовательским интерфейсом. IT Tools — это бесплатный набор удобных
         онлайн-инструментов с открытым исходным кодом для разработчиков и
         специалистов в сфере ИТ.
-      it-tools-handy-online-tools-for-developers: IT-инструменты — удобные онлайн-инструменты для разработчиков.
+      it-tools-handy-online-tools-for-developers: "IT Tools от PabloVTM - Полезные онлайн-инструменты для разработчиков"
 about:
   alltools-title: Все {toolsCount} инструменты
   tools:
@@ -60,42 +60,20 @@ about:
   import-button: Импорт
   favorites-imported-successfully: Избранное успешно импортировано!
   error-importing-favorites-e: "Ошибка импорта избранного: {0}"
-  content-fork: >
+  content-fork: |
     # Об IT-Tools
 
-    Этот замечательный сайт, изначально созданный [Corentin
-    Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) и
-    расширенный ShareVB, объединяет полезные инструменты для разработчиков и
-    IT-специалистов. Если вы найдете его полезным, не стесняйтесь поделиться им
-    с теми, кому он тоже может быть полезен, и не забудьте добавить его в
-    закладки!
+    Этот сайт, изначально созданный с ❤ [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) и расширенный [ShareVB](https://github.com/sharevb/it-tools), собирает полезные инструменты для разработчиков и IT-специалистов. Эту редакцию поддерживает [PabloVTM](https://github.com/PabloVTM/it-tools), и она сосредоточена на наборе инструментов IT-специалиста. Если он вам полезен, поделитесь им и добавьте в закладки!
 
-    IT Tools — проект с открытым исходным кодом (по лицензии GPL-3.0),
-    бесплатный и всегда будет таким. Если вы хотите поддержать мою работу над
-    этим форком и побудить меня добавить больше инструментов или функций,
-    пожалуйста, рассмотрите возможность [поддержать
-    меня](https://www.buymeacoffee.com/sharevb).
+    IT Tools — проект с открытым исходным кодом (лицензия GPL-3.0) и бесплатный, и таким останется всегда. Чтобы поддержать работу ShareVB над форком, на котором основана эта редакция, вы можете [поддержать ShareVB](https://www.buymeacoffee.com/sharevb).
 
     ## Технологии
 
-    IT Tools написан на Vue.js (Vue 3) с использованием библиотеки компонентов
-    Naive UI и размещается и постоянно разворачивается компанией Vercel. В
-    некоторых инструментах используются сторонние библиотеки с открытым исходным
-    кодом. Полный список можно найти в файле
-    [package.json](https://github.com/sharevb/it-tools/blob/main/package.json)
-    репозитория.
+    IT Tools написан на Vue.js (Vue 3) с библиотекой компонентов Naive UI. Эта редакция распространяется как Docker-образ (`ghcr.io/pablovtm/it-tools`). Некоторые инструменты используют сторонние библиотеки с открытым исходным кодом; полный список приведён в файле [package.json](https://github.com/PabloVTM/it-tools/blob/master/package.json) репозитория.
 
-    ## Нашли ошибку? Инструмент отсутствует?
+    ## Нашли ошибку? Не хватает инструмента?
 
-    Если вам нужен инструмент, которого здесь нет, и вы считаете его полезным,
-    вы можете отправить запрос на добавление функции в раздел
-    [issues](https://github.com/sharevb/it-tools/issues/new/choose) репозитория
-    GitHub.
-
-    Если вы нашли ошибку или что-то работает не так, как ожидалось, пожалуйста,
-    отправьте отчёт об ошибке в раздел
-    [issues](https://github.com/sharevb/it-tools/issues/new/choose) репозитория
-    GitHub.
+    Предложения и сообщения об ошибках приветствуются в [репозитории GitHub](https://github.com/PabloVTM/it-tools).
   text:
     collection-of-handy-online-tools-for-developers-with-great-ux-it-tools-is-a-free-and-open-source-collection-of-handy-online-tools-for-developers-and-people-working-in-it:
       Набор удобных онлайн-инструментов для разработчиков с отличным

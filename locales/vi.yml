@@ -47,7 +47,7 @@ home:
         trải nghiệm người dùng tuyệt vời. IT Tools là một bộ sưu tập miễn phí và
         mã nguồn mở các công cụ trực tuyến tiện dụng dành cho nhà phát triển và
         những người làm việc trong lĩnh vực CNTT.
-      it-tools-handy-online-tools-for-developers: Công cụ CNTT - Các công cụ trực tuyến tiện dụng dành cho nhà phát triển
+      it-tools-handy-online-tools-for-developers: "IT Tools của PabloVTM - Công cụ trực tuyến tiện dụng cho nhà phát triển"
 about:
   alltools-title: Tất cả {toolsCount} Công cụ
   tools:
@@ -60,40 +60,20 @@ about:
   import-button: Nhập khẩu
   favorites-imported-successfully: Đã nhập mục ưa thích thành công!
   error-importing-favorites-e: "Lỗi khi nhập mục yêu thích: {0}"
-  content-fork: >
+  content-fork: |
     # Giới thiệu về IT-Tools
 
-    Trang web tuyệt vời này, ban đầu được tạo ra với ❤ bởi [Corentin
-    Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) và
-    được mở rộng bởi ShareVB, tổng hợp các công cụ hữu ích cho nhà phát triển và
-    những người làm việc trong lĩnh vực CNTT. Nếu bạn thấy hữu ích, hãy thoải
-    mái chia sẻ với những người mà bạn nghĩ cũng sẽ thấy hữu ích và đừng quên
-    đánh dấu trang này trên thanh lối tắt của bạn!
+    Trang web này, ban đầu được tạo với ❤ bởi [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) và được mở rộng bởi [ShareVB](https://github.com/sharevb/it-tools), tập hợp các công cụ hữu ích cho nhà phát triển và người làm CNTT. Phiên bản này do [PabloVTM](https://github.com/PabloVTM/it-tools) duy trì và tập trung vào hộp công cụ của dân CNTT. Nếu thấy hữu ích, hãy chia sẻ và đánh dấu trang nhé!
 
-    IT Tools là mã nguồn mở (theo giấy phép GPL-3.0) và miễn phí, và sẽ luôn như
-    vậy. Nếu bạn muốn hỗ trợ công việc của tôi trên nhánh này và khuyến khích
-    tôi bổ sung thêm các công cụ hoặc chức năng, vui lòng cân nhắc hỗ trợ bằng
-    cách [tài trợ cho tôi](https://www.buymeacoffee.com/sharevb).
+    IT Tools là mã nguồn mở (theo giấy phép GPL-3.0) và miễn phí, và sẽ luôn như vậy. Để ủng hộ công sức của ShareVB trên bản fork mà phiên bản này dựa vào, bạn có thể [tài trợ cho ShareVB](https://www.buymeacoffee.com/sharevb).
 
     ## Công nghệ
 
-    IT Tools được tạo bằng Vue.js (Vue 3) với thư viện thành phần Naive UI và
-    được Vercel lưu trữ và triển khai liên tục. Một số công cụ sử dụng thư viện
-    mã nguồn mở của bên thứ ba. Bạn có thể tìm thấy danh sách đầy đủ trong tệp
-    [package.json](https://github.com/sharevb/it-tools/blob/main/package.json)
-    của kho lưu trữ.
+    IT Tools được xây dựng bằng Vue.js (Vue 3) với thư viện thành phần Naive UI. Phiên bản này được phân phối dưới dạng Docker image (`ghcr.io/pablovtm/it-tools`). Một số công cụ sử dụng thư viện mã nguồn mở của bên thứ ba; danh sách đầy đủ nằm trong tệp [package.json](https://github.com/PabloVTM/it-tools/blob/master/package.json) của kho mã.
 
-    ## Đã tìm thấy lỗi? Thiếu công cụ?
+    ## Tìm thấy lỗi? Thiếu công cụ?
 
-    Nếu bạn cần một công cụ hiện chưa có ở đây và bạn nghĩ rằng nó hữu ích, vui
-    lòng gửi yêu cầu tính năng trong phần
-    [issues](https://github.com/sharevb/it-tools/issues/new/choose) của kho lưu
-    trữ GitHub.
-
-    Và nếu bạn tìm thấy lỗi hoặc có điều gì đó không hoạt động như mong đợi, vui
-    lòng gửi báo cáo lỗi trong phần
-    [issues](https://github.com/sharevb/it-tools/issues/new/choose) của kho lưu
-    trữ GitHub.
+    Mọi góp ý và báo lỗi đều được hoan nghênh tại [kho GitHub](https://github.com/PabloVTM/it-tools).
   text:
     collection-of-handy-online-tools-for-developers-with-great-ux-it-tools-is-a-free-and-open-source-collection-of-handy-online-tools-for-developers-and-people-working-in-it:
       Bộ sưu tập các công cụ trực tuyến tiện dụng dành cho nhà phát triển, với

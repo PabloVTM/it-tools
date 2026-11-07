@@ -46,7 +46,7 @@ home:
         Колекція зручних онлайн-інструментів для розробників із чудовим UX. IT
         Tools — це безкоштовна колекція зручних онлайн-інструментів з відкритим
         кодом для розробників та людей, які працюють у сфері ІТ.
-      it-tools-handy-online-tools-for-developers: ІТ-інструменти – зручні онлайн-інструменти для розробників
+      it-tools-handy-online-tools-for-developers: "IT Tools від PabloVTM - Корисні онлайн-інструменти для розробників"
 about:
   alltools-title: Усі інструменти ({toolsCount})
   tools:
@@ -59,43 +59,20 @@ about:
   import-button: Імпорт
   favorites-imported-successfully: Вибране успішно імпортовано!
   error-importing-favorites-e: "Помилка імпорту обраного: {0}"
-  content-fork: >
-    # Про IT-інструменти
+  content-fork: |
+    # Про IT-Tools
 
-    Цей чудовий веб-сайт, створений за допомогою ❤ спочатку [Corentin
-    Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) та
-    розширений ShareVB, об'єднує корисні інструменти для розробників та людей,
-    які працюють у сфері IT. Якщо ви вважаєте його корисним, будь ласка, не
-    соромтеся поділитися ним з людьми, які, на вашу думку, також можуть його
-    знайти корисним, і не забудьте додати його до закладок на панелі швидкого
-    доступу!
+    Цей сайт, створений з ❤ [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) і розширений [ShareVB](https://github.com/sharevb/it-tools), збирає корисні інструменти для розробників та IT-фахівців. Цю редакцію підтримує [PabloVTM](https://github.com/PabloVTM/it-tools), і вона зосереджена на наборі інструментів IT-фахівця. Якщо він вам корисний, поділіться ним і додайте до закладок!
 
-    IT-інструменти є програмним забезпеченням з відкритим вихідним кодом (під
-    ліцензією GPL-3.0) та безкоштовним, і завжди буде таким. Якщо ви хочете
-    підтримати мою роботу над цим форком та заохотити мене додавати більше
-    інструментів або функцій, будь ласка, розгляньте можливість підтримки,
-    [підтримавши мене](https://www.buymeacoffee.com/sharevb).
+    IT Tools — проєкт з відкритим кодом (ліцензія GPL-3.0) і безкоштовний, і таким залишиться завжди. Щоб підтримати роботу ShareVB над форком, на якому базується ця редакція, ви можете [підтримати ShareVB](https://www.buymeacoffee.com/sharevb).
 
     ## Технології
 
-    IT-інструменти створені на Vue.js (Vue 3) з бібліотекою компонентів Naive UI
-    та розміщені та постійно розгортаються Vercel. У деяких інструментах
-    використовуються сторонні бібліотеки з відкритим кодом. Повний список можна
-    знайти у файлі
-    [package.json](https://github.com/sharevb/it-tools/blob/main/package.json)
-    репозиторію.
+    IT Tools створено на Vue.js (Vue 3) з бібліотекою компонентів Naive UI. Ця редакція поширюється як Docker-образ (`ghcr.io/pablovtm/it-tools`). Деякі інструменти використовують сторонні бібліотеки з відкритим кодом; повний перелік наведено у файлі [package.json](https://github.com/PabloVTM/it-tools/blob/master/package.json) репозиторію.
 
-    ## Знайшли помилку? Інструмент відсутній?
+    ## Знайшли помилку? Бракує інструмента?
 
-    Якщо вам потрібен інструмент, якого наразі тут немає, і ви вважаєте, що він
-    може бути корисним, ви можете надіслати запит на функцію в розділі
-    [issues](https://github.com/sharevb/it-tools/issues/new/choose) у
-    репозиторії GitHub.
-
-    А якщо ви знайшли помилку або щось працює не так, як очікувалося, будь
-    ласка, надішліть звіт про помилку в розділі
-    [issues](https://github.com/sharevb/it-tools/issues/new/choose) у
-    репозиторії GitHub.
+    Пропозиції та повідомлення про помилки вітаються в [репозиторії GitHub](https://github.com/PabloVTM/it-tools).
   text:
     collection-of-handy-online-tools-for-developers-with-great-ux-it-tools-is-a-free-and-open-source-collection-of-handy-online-tools-for-developers-and-people-working-in-it:
       Колекція зручних онлайн-інструментів для розробників із чудовим UX. IT

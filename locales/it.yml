@@ -13,39 +13,20 @@ about:
     name: Nome
     desc: Descrizione
     category: Categoria
-  content-fork: >
+  content-fork: |
     # Informazioni su IT-Tools
 
-    Questo splendido sito, realizzato con ❤️ inizialmente da [Corentin
-    Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) ed
-    esteso da ShareVB, raccoglie strumenti utili per sviluppatori e persone che
-    lavorano nell'IT. Se lo trovi utile, condividilo con chi pensi possa
-    apprezzarlo e non dimenticare di aggiungerlo ai preferiti del browser!
+    Questo sito, creato inizialmente con ❤ da [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) e ampliato da [ShareVB](https://github.com/sharevb/it-tools), raccoglie strumenti utili per sviluppatori e professionisti IT. Questa edizione è mantenuta da [PabloVTM](https://github.com/PabloVTM/it-tools) ed è dedicata alla cassetta degli attrezzi dell'informatico. Se ti è utile, condividila e aggiungila ai preferiti!
 
-    IT Tools è open-source (licenza GPL-3.0) e gratuito, e lo sarà sempre. Se
-    vuoi sostenere il lavoro su questo fork e incoraggiarmi ad aggiungere altri
-    strumenti o funzionalità, considera di supportarmi con una
-    [donazione](https://www.buymeacoffee.com/sharevb).
+    IT Tools è open source (con licenza GPL-3.0) e gratuito, e lo sarà sempre. Per sostenere il lavoro di ShareVB sul fork da cui deriva questa edizione, puoi [sponsorizzare ShareVB](https://www.buymeacoffee.com/sharevb).
 
     ## Tecnologie
 
-    IT Tools è realizzato in Vue.js (Vue 3) con la libreria di componenti Naive
-    UI ed è ospitato e distribuito in continuo da Vercel. Alcuni strumenti
-    utilizzano librerie open-source di terze parti; l'elenco completo è nel file
-    [package.json](https://github.com/sharevb/it-tools/blob/main/package.json)
-    del repository.
+    IT Tools è realizzato in Vue.js (Vue 3) con la libreria di componenti Naive UI. Questa edizione è distribuita come immagine Docker (`ghcr.io/pablovtm/it-tools`). Alcuni strumenti usano librerie open source di terze parti; l'elenco completo è nel file [package.json](https://github.com/PabloVTM/it-tools/blob/master/package.json) del repository.
 
-    ## Trovato un bug? Manca uno strumento?
+    ## Hai trovato un bug? Manca uno strumento?
 
-    Se hai bisogno di uno strumento che qui non c'è e pensi possa essere utile,
-    puoi inviare una richiesta di funzionalità nella sezione
-    [issues](https://github.com/sharevb/it-tools/issues/new/choose) del
-    repository GitHub.
-
-    E se hai trovato un bug, o qualcosa non funziona come previsto, segnalalo
-    nella sezione
-    [issues](https://github.com/sharevb/it-tools/issues/new/choose) del
-    repository GitHub.
+    Suggerimenti e segnalazioni di bug sono benvenuti nel [repository GitHub](https://github.com/PabloVTM/it-tools).
   import-favorites: Importa preferiti
   export-favorites: Esporta preferiti
   put-your-favorites-json-array-here: Inserisci qui il tuo array JSON di preferiti...
@@ -124,7 +105,7 @@ home:
         Una raccolta di pratici strumenti online per sviluppatori, con un'ottima
         esperienza utente. IT Tools è una raccolta gratuita e open-source di
         strumenti online utili per sviluppatori e professionisti IT.
-      it-tools-handy-online-tools-for-developers: IT Tools - Pratici strumenti online per sviluppatori
+      it-tools-handy-online-tools-for-developers: "IT Tools di PabloVTM - Strumenti online utili per sviluppatori"
 tools:
   crop-image:
     title: Ritaglia immagine
