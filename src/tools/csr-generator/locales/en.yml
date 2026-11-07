@@ -1,0 +1,66 @@
+tools:
+  csr-generator:
+    title: CSR generator
+    description: Create a certificate signing request (CSR) with an RSA or ECDSA key, subject alternative names, key usages and the matching OpenSSL config.
+    form:
+      key:
+        title: Key
+        generate: Generate a new key
+        existing: Use an existing private key
+        algorithm: Key type
+        hash: Signature hash
+        existing-pem: Private key (PEM)
+        existing-passphrase: Passphrase (if the key is encrypted)
+        existing-help: 'Supported: PKCS#8 (PRIVATE KEY, ENCRYPTED PRIVATE KEY), PKCS#1 RSA and SEC1 EC keys. The key never leaves your browser.'
+      subject:
+        title: Subject
+        commonName: Common name (CN)
+        organizationName: Organization (O)
+        organizationalUnit: Organizational unit (OU)
+        locality: City / locality (L)
+        state: State / province (ST)
+        country: Country code (C, 2 letters)
+        emailAddress: Email address
+      san:
+        title: Subject alternative names
+        label: One per line or comma separated. DNS names, IP addresses, emails and URIs are detected; DNS, IP, email or URI prefixes force the type.
+        include-cn: Add the common name to the SANs (required by browsers)
+      usage:
+        title: Usage
+        preset: Preset
+        custom: Custom
+        key-usage: Key usage
+        critical: Mark key usage as critical
+        extended-key-usage: Extended key usage
+        is-ca: Request a CA certificate (basicConstraints CA:TRUE)
+        path-length: Path length
+      presets:
+        tls-server: TLS server
+        tls-client: TLS client
+        tls-server-client: TLS server and client
+        code-signing: Code signing
+        smime: S/MIME email
+        intermediate-ca: Intermediate CA
+      options:
+        title: Options
+        challenge-password: Challenge password (optional)
+        key-passphrase: Private key passphrase
+        key-passphrase-placeholder: Leave empty for an unencrypted key
+      errors:
+        common-name-required: The common name is required.
+        country-two-letters: The country must be a 2-letter ISO code, for example FR or US.
+        invalid-san: One of the DNS names is not valid.
+        existing-key-required: Paste the private key to use.
+        invalid-path-length: The path length must be a positive integer.
+        unsupported-format: This private key format is not supported.
+        unsupported-algorithm: Only RSA and ECDSA (P-256, P-384, P-521) keys are supported.
+        wrong-passphrase: The passphrase is wrong or the key could not be decrypted.
+      generate: Generate CSR
+      generating: Generating...
+      output:
+        key: Key
+        csr: Certificate signing request
+        private-key: Private key
+        public-key: Public key
+        openssl-config: OpenSSL config
+        openssl-commands: Equivalent OpenSSL commands

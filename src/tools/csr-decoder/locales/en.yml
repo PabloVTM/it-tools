@@ -1,0 +1,33 @@
+tools:
+  csr-decoder:
+    title: CSR decoder
+    description: Decode a certificate signing request (CSR) to check its subject, SANs, key, extensions and signature before sending it to a CA.
+    input-label: Certificate signing request (PEM or base64 DER)
+    file-upload: Or drop a .csr / .pem / .der file here
+    invalid: This is not a valid certificate signing request.
+    signature-valid: The CSR signature is valid.
+    signature-invalid: The CSR signature is invalid. The request was modified or corrupted.
+    subject: Subject
+    field: Field
+    value: Value
+    subject-alternative-names: Subject alternative names
+    public-key: Key and signature
+    algorithm: Public key
+    signature-algorithm: Signature algorithm
+    fingerprint: Public key SHA-256 fingerprint
+    extensions: Requested extensions
+    key-usage: Key usage
+    extended-key-usage: Extended key usage
+    basic-constraints: Basic constraints
+    challenge-password: Challenge password
+    critical: critical
+    present: present
+    none: None
+    openssl: Check with OpenSSL
+    warnings:
+      weak-rsa-key: The RSA key is shorter than 2048 bits. Public CAs reject it.
+      weak-hash: The signature uses SHA-1 or MD5. Use SHA-256 or stronger.
+      no-san: There is no subject alternative name. Browsers ignore the common name, so the certificate would not be trusted for any host.
+      cn-not-in-san: The common name is not listed in the subject alternative names.
+      country-not-two-letters: The country is not a 2-letter ISO code. Most CAs reject it.
+      is-ca: This CSR requests a CA certificate (CA:TRUE).

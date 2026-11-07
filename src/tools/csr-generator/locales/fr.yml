@@ -1,0 +1,66 @@
+tools:
+  csr-generator:
+    title: Générateur de CSR
+    description: Crée une demande de signature de certificat (CSR) avec une clé RSA ou ECDSA, des noms alternatifs, les usages de clé et la configuration OpenSSL correspondante.
+    form:
+      key:
+        title: Clé
+        generate: Générer une nouvelle clé
+        existing: Utiliser une clé privée existante
+        algorithm: Type de clé
+        hash: Hachage de signature
+        existing-pem: Clé privée (PEM)
+        existing-passphrase: Phrase secrète (si la clé est chiffrée)
+        existing-help: 'Formats acceptés : PKCS#8 (PRIVATE KEY, ENCRYPTED PRIVATE KEY), RSA PKCS#1 et EC SEC1. La clé ne quitte jamais votre navigateur.'
+      subject:
+        title: Sujet
+        commonName: Nom commun (CN)
+        organizationName: Organisation (O)
+        organizationalUnit: Unité organisationnelle (OU)
+        locality: Ville (L)
+        state: Région / province (ST)
+        country: Code pays (C, 2 lettres)
+        emailAddress: Adresse e-mail
+      san:
+        title: Noms alternatifs (SAN)
+        label: Un par ligne ou séparés par des virgules. Les noms DNS, adresses IP, e-mails et URI sont détectés ; les préfixes DNS, IP, email ou URI forcent le type.
+        include-cn: Ajouter le nom commun aux SAN (exigé par les navigateurs)
+      usage:
+        title: Usage
+        preset: Préréglage
+        custom: Personnalisé
+        key-usage: Usages de la clé (Key Usage)
+        critical: Marquer Key Usage comme critique
+        extended-key-usage: Usages étendus (Extended Key Usage)
+        is-ca: Demander un certificat d'AC (basicConstraints CA:TRUE)
+        path-length: Longueur de chemin
+      presets:
+        tls-server: Serveur TLS
+        tls-client: Client TLS
+        tls-server-client: Serveur et client TLS
+        code-signing: Signature de code
+        smime: E-mail S/MIME
+        intermediate-ca: AC intermédiaire
+      options:
+        title: Options
+        challenge-password: Mot de passe de challenge (facultatif)
+        key-passphrase: Phrase secrète de la clé privée
+        key-passphrase-placeholder: Laisser vide pour une clé non chiffrée
+      errors:
+        common-name-required: Le nom commun est obligatoire.
+        country-two-letters: Le pays doit être un code ISO à 2 lettres, par exemple FR ou US.
+        invalid-san: Un des noms DNS n'est pas valide.
+        existing-key-required: Collez la clé privée à utiliser.
+        invalid-path-length: La longueur de chemin doit être un entier positif.
+        unsupported-format: Ce format de clé privée n'est pas pris en charge.
+        unsupported-algorithm: Seules les clés RSA et ECDSA (P-256, P-384, P-521) sont prises en charge.
+        wrong-passphrase: La phrase secrète est incorrecte ou la clé n'a pas pu être déchiffrée.
+      generate: Générer la CSR
+      generating: Génération...
+      output:
+        key: Clé
+        csr: Demande de signature de certificat
+        private-key: Clé privée
+        public-key: Clé publique
+        openssl-config: Configuration OpenSSL
+        openssl-commands: Commandes OpenSSL équivalentes

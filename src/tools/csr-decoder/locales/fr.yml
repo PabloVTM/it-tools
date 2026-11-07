@@ -1,0 +1,33 @@
+tools:
+  csr-decoder:
+    title: Décodeur de CSR
+    description: Décode une demande de signature de certificat (CSR) pour vérifier son sujet, ses SAN, sa clé, ses extensions et sa signature avant de l'envoyer à une AC.
+    input-label: Demande de signature de certificat (PEM ou DER en base64)
+    file-upload: Ou déposez ici un fichier .csr / .pem / .der
+    invalid: Ce n'est pas une demande de signature de certificat valide.
+    signature-valid: La signature de la CSR est valide.
+    signature-invalid: La signature de la CSR est invalide. La demande a été modifiée ou est corrompue.
+    subject: Sujet
+    field: Champ
+    value: Valeur
+    subject-alternative-names: Noms alternatifs (SAN)
+    public-key: Clé et signature
+    algorithm: Clé publique
+    signature-algorithm: Algorithme de signature
+    fingerprint: Empreinte SHA-256 de la clé publique
+    extensions: Extensions demandées
+    key-usage: Usages de la clé
+    extended-key-usage: Usages étendus
+    basic-constraints: Contraintes de base
+    challenge-password: Mot de passe de challenge
+    critical: critique
+    present: présente
+    none: Aucun
+    openssl: Vérifier avec OpenSSL
+    warnings:
+      weak-rsa-key: La clé RSA fait moins de 2048 bits. Les AC publiques la refusent.
+      weak-hash: La signature utilise SHA-1 ou MD5. Utilisez SHA-256 ou plus fort.
+      no-san: Aucun nom alternatif. Les navigateurs ignorent le nom commun, le certificat ne serait donc valide pour aucun hôte.
+      cn-not-in-san: Le nom commun ne figure pas dans les noms alternatifs.
+      country-not-two-letters: Le pays n'est pas un code ISO à 2 lettres. La plupart des AC le refusent.
+      is-ca: Cette CSR demande un certificat d'AC (CA:TRUE).
