@@ -23,8 +23,6 @@ import router from './router';
 import { i18nPlugin } from './plugins/i18n.plugin';
 import { toolsSettings } from './tools-settings';
 
-import store from './tools/pomodoro-timer/app/store';
-
 window.addEventListener('vite:preloadError', (event: Event) => {
   console.error('Vite preload error, forcing page reload:', event);
   event.preventDefault(); // Prevent the original error from being thrown again
@@ -93,7 +91,6 @@ app.use(router);
 app.use(naive);
 app.use(plausible);
 app.use(shadow);
-app.use(store, 'pomodoro-store');
 app.use(Vue3Katex);
 
 app.mount('#app');
