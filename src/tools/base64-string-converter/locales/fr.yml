@@ -1,0 +1,24 @@
+tools:
+  base64-string-converter:
+    extra:
+      padding: Remplissage (=)
+      line-length: Longueur de ligne
+      line-none: Une seule ligne
+      line-pem: 64 caractères (PEM)
+      line-mime: 76 caractères (MIME)
+      encode-summary: '{bytes} octets encodés en {chars} caractères base64'
+      decode-help: Les blocs PEM, data URI, retours à la ligne, caractères URL-safe et le remplissage manquant sont gérés automatiquement.
+      error-invalid-character: 'Base64 invalide : caractère inattendu en position {position}.'
+      bytes: '{count} octets'
+      text-content: Texte
+      binary-content: Données binaires
+      cleanup-whitespace: Retours à la ligne supprimés
+      cleanup-url-safe: Alphabet URL-safe
+      cleanup-padding-added: Remplissage manquant ajouté
+      binary-warning: Ces données semblent binaires, elles sont donc affichées en hexadécimal. Téléchargez-les pour les ouvrir avec le bon programme.
+      hex-dump: Dump hexadécimal
+      show-hex: Afficher en hexadécimal
+      show-text: Afficher en texte
+      copy-hex: Copier le dump hexadécimal
+      hex-copied: Dump hexadécimal copié dans le presse-papiers
+      download: Télécharger le fichier décodé

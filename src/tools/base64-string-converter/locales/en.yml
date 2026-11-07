@@ -1,0 +1,24 @@
+tools:
+  base64-string-converter:
+    extra:
+      padding: Padding (=)
+      line-length: Line length
+      line-none: Single line
+      line-pem: 64 characters (PEM)
+      line-mime: 76 characters (MIME)
+      encode-summary: '{bytes} bytes encoded into {chars} base64 characters'
+      decode-help: PEM blocks, data URIs, line breaks, URL-safe characters and missing padding are handled automatically.
+      error-invalid-character: 'Invalid base64: unexpected character at position {position}.'
+      bytes: '{count} bytes'
+      text-content: Text
+      binary-content: Binary data
+      cleanup-whitespace: Line breaks removed
+      cleanup-url-safe: URL-safe alphabet
+      cleanup-padding-added: Missing padding added
+      binary-warning: This looks like binary data, so it is shown as a hex dump. Download it to open it in the right program.
+      hex-dump: Hex dump
+      show-hex: Show hex dump
+      show-text: Show as text
+      copy-hex: Copy hex dump
+      hex-copied: Hex dump copied to the clipboard
+      download: Download decoded file
