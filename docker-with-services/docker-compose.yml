@@ -1,6 +1,6 @@
 services:
   it-tools:
-    image: sharevb/it-tools:latest
+    image: ghcr.io/pablovtm/it-tools:latest
     pull_policy: always
     restart: unless-stopped
     environment:

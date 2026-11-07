@@ -4,7 +4,7 @@ on:
   pull_request:
   push:
     branches:
-      - chore/all-my-stuffs
+      - master
 
 concurrency:
   # A new push supersedes the previous run on the same ref, so a burst of pushes
