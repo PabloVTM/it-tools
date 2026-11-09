@@ -46,7 +46,7 @@ const tools = computed<ToolCategory[]>(() => [
       <RouterLink to="/" class="hero-wrapper">
         <div class="text-wrapper">
           <div class="title">
-            <span class="prompt-user">pablo@vtm</span><span class="prompt-sep">:</span
+            <span class="prompt-user">pablo@systems</span><span class="prompt-sep">:</span
             ><span class="prompt-path">~/tools</span><span class="prompt-cursor" aria-hidden="true">_</span>
           </div>
           <div class="subtitle"># {{ $t('home.subtitle') }}</div>
@@ -161,7 +161,7 @@ const tools = computed<ToolCategory[]>(() => [
   line-height: 1.8;
 
   .footer-prompt {
-    color: v-bind('palette.primary');
+    color: v-bind('palette.accentText');
   }
 }
 
@@ -211,7 +211,7 @@ const tools = computed<ToolCategory[]>(() => [
     text-align: left;
 
     .title {
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 600;
       white-space: nowrap;
       overflow: hidden;
@@ -226,11 +226,11 @@ const tools = computed<ToolCategory[]>(() => [
       }
 
       .prompt-path {
-        color: v-bind('palette.accent');
+        color: v-bind('palette.accentText');
       }
 
       .prompt-cursor {
-        color: v-bind('palette.primary');
+        color: v-bind('palette.accent');
         animation: prompt-blink 1.1s steps(1) infinite;
       }
     }

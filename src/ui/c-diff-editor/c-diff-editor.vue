@@ -37,8 +37,8 @@ monaco.editor.defineTheme('it-tools-dark', {
   inherit: true,
   rules: [],
   colors: {
-    'editor.background': '#161b22',
-    'editorStickyScroll.background': '#161b22',
+    'editor.background': '#2e3731',
+    'editorStickyScroll.background': '#2e3731',
   },
 });
 
@@ -47,8 +47,8 @@ monaco.editor.defineTheme('it-tools-light', {
   inherit: true,
   rules: [],
   colors: {
-    'editor.background': '#f6f8fa',
-    'editorStickyScroll.background': '#f6f8fa',
+    'editor.background': '#f8f6ef',
+    'editorStickyScroll.background': '#f8f6ef',
   },
 });
 

@@ -30,7 +30,7 @@ export const useStyleStore = defineStore('style', {
           | undefined;
         document
           .querySelector('meta[name="theme-color"]')
-          ?.setAttribute('content', themeColor ?? (isDark ? '#0d1117' : '#f6f8fa'));
+          ?.setAttribute('content', themeColor ?? (isDark ? '#252c28' : '#f1eee3'));
       },
       { immediate: true },
     );

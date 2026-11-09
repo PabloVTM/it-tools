@@ -1,38 +1,43 @@
-// PabloVTM "Terminal" theme. Single source for the app colors: naive-ui overrides
-// (src/themes.ts), the c-* components (src/ui), UnoCSS and the pre-paint styles in
-// index.html (keep the background/primary values there in sync by hand).
+// PabloSystems theme: Deep Sage Green #4B5A50, Warm Ivory #F1EEE3 and Vibrant
+// Vermillion Red #F20B0B for details. Single source for the app colors:
+// naive-ui overrides (src/themes.ts), the c-* components (src/ui), UnoCSS and
+// the pre-paint styles in index.html (keep the background/primary values there
+// in sync by hand). Text colors keep at least 4.5:1 on their backgrounds;
+// accentText is the vermillion tuned for text, accent is the raw brand red.
 export const terminalPalette = {
   dark: {
-    background: '#0d1117',
-    surface: '#161b22',
-    surfaceRaised: '#1c2128',
-    input: '#0d1117',
-    border: '#30363d',
-    borderMuted: '#21262d',
-    hover: '#21262d',
-    text: '#c9d1d9',
-    textMuted: '#8b949e',
-    primary: '#3ddc97',
-    primaryHover: '#5fe6ab',
-    primaryPressed: '#2bb57a',
-    primaryFaded: '#3ddc972f',
-    accent: '#f2c14e',
+    background: '#252c28',
+    surface: '#2e3731',
+    surfaceRaised: '#38433c',
+    input: '#252c28',
+    border: '#4b5a50',
+    borderMuted: '#38433c',
+    hover: '#38433c',
+    text: '#f1eee3',
+    textMuted: '#c9c6b9',
+    primary: '#a9baae',
+    primaryHover: '#bccbc0',
+    primaryPressed: '#93a699',
+    primaryFaded: '#a9baae2f',
+    accent: '#f20b0b',
+    accentText: '#ff7a70',
   },
   light: {
-    background: '#f6f8fa',
-    surface: '#ffffff',
-    surfaceRaised: '#ffffff',
-    input: '#ffffff',
-    border: '#d0d7de',
-    borderMuted: '#eaeef2',
-    hover: '#eaeef2',
-    text: '#1f2328',
-    textMuted: '#59636e',
-    primary: '#1a7f4b',
-    primaryHover: '#22955a',
-    primaryPressed: '#13633a',
-    primaryFaded: '#1a7f4b2f',
-    accent: '#9a6700',
+    background: '#f1eee3',
+    surface: '#f8f6ef',
+    surfaceRaised: '#fdfcf8',
+    input: '#fdfcf8',
+    border: '#d3cdbb',
+    borderMuted: '#e2ddce',
+    hover: '#e7e3d6',
+    text: '#2b332e',
+    textMuted: '#5b665f',
+    primary: '#4b5a50',
+    primaryHover: '#3e4b43',
+    primaryPressed: '#333e37',
+    primaryFaded: '#4b5a502f',
+    accent: '#f20b0b',
+    accentText: '#c40808',
   },
   // System monospace fonts only: nothing to download, works offline.
   fontFamily:

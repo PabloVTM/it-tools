@@ -10,6 +10,8 @@ A collection of handy online tools for developers and IT people, served as a sta
 
 This is a fork of [sharevb/it-tools](https://github.com/sharevb/it-tools), itself a fork of [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools), maintained at [PabloVTM/it-tools](https://github.com/PabloVTM/it-tools). It adds many tools, full UI translations and runtime customisation for the Docker image.
 
+The interface uses the PabloSystems theme shared by the PabloVTM tools: Deep Sage Green `#4B5A50`, Warm Ivory `#F1EEE3` and Vibrant Vermillion Red `#F20B0B` for details, system monospace fonts and a `pablo@systems:~/tools` prompt as title, in light and dark modes.
+
 ## Image
 
 Images are published to GitHub Container Registry for `linux/amd64` and `linux/arm64`:
@@ -17,7 +19,7 @@ Images are published to GitHub Container Registry for `linux/amd64` and `linux/a
 | Tag | Content |
 | --- | --- |
 | `ghcr.io/pablovtm/it-tools:latest` | Latest build of `master`. |
-| `ghcr.io/pablovtm/it-tools:YYYY-MM-DD` | Dated version, e.g. `2026-11-07`. A new one is built every Monday with the latest Alpine security updates. |
+| `ghcr.io/pablovtm/it-tools:YYYY-MM-DD` | Dated version, e.g. `2026-11-07`. Each build upgrades the Alpine packages, so a new dated version also brings the latest security fixes. |
 
 The image is based on `nginx-unprivileged` and listens on port **8080** (not 80).
 
@@ -191,6 +193,17 @@ docker compose up
 Then open http://localhost/it-tools/.
 
 On a read-only root filesystem, `BASE_URL` and `PORT` only take effect if `/etc/nginx/conf.d` is writable (mount a tmpfs there). The container logs a warning otherwise.
+
+## Releasing
+
+Images are built by GitHub Actions. A push to `master` publishes `latest`; a dated version is published by pushing a tag named after the day:
+
+```bash
+git tag 2026-11-09
+git push origin 2026-11-09
+```
+
+The workflow tests the image first, then publishes `ghcr.io/pablovtm/it-tools:2026-11-09` and `latest` for `linux/amd64` and `linux/arm64`. There is no scheduled rebuild: tag a new version when you want one.
 
 ## Building
 
